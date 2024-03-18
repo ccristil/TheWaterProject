@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Server.Kestrel.Core
+@model ProjectsListViewModel
+<div class="container">
+    <h1 class="display-2 text-light">The Water Project 💧</h1>
+</div>
+<div class="line">
+    
+</div>
+
+<div class="container text-light list-group">
+    @foreach (Project p in Model.Projects)
+    {
+        <h3>@p.ProjectName</h3>
+                
+        <ul>
+            <li>Program: @p.ProgramName</li>
+            <li>Project Type:  @p.ProjectType</li>
+            <li>Project Impact: @p.ProjectImpact</li>
+            <li>Installation Date: @p.ProjectInstallation</li>
+            <li>Phase: @p.ProjectPhase</li>
+        </ul>
+    }
+</div>
+
+<div page-model="@Model.PaginationInfo" page-action="Index">
+    
+</div>
