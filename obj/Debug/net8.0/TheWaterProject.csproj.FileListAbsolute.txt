@@ -138,3 +138,4 @@
 /Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/obj/Debug/net8.0/TheWaterProject.pdb
 /Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/obj/Debug/net8.0/TheWaterProject.genruntimeconfig.cache
 /Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/obj/Debug/net8.0/ref/TheWaterProject.dll
+/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/obj/Debug/net8.0/TheWaterProject.sourcelink.json

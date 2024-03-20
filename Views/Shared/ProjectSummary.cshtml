@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Project;
+
+
+<div class="card m-3">
+    <h3 class="card-header">@Model.ProjectName
+        <span class="badge  rounded-pill bg-primary text-white"><small>@Model.ProjectImpact served</small></span></h3>
+    <div class="card-body m-1">
+        
+    
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Program: @Model.ProgramName</li>
+        <li class="list-group-item">Project Type:  @Model.ProjectType</li>
+        <li class="list-group-item">Installation Date: @Model.ProjectInstallation</li>
+        <li class="list-group-item">Phase: @Model.ProjectPhase</li>
+    </ul>
+    </div>
+            </div> 

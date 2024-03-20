@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
-    },
-    {
       "Id": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -243,6 +239,10 @@
     {
       "Id": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/water_bottle.png",
+      "PackagePath": "staticwebassets/water_bottle.png"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TheWaterProject.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Eivha612rqG7ZniSwFc+4kQMo3z4mM88rYJiTYYy0oI=",
+  "Hash": "IDIGKycHi8Jpq1vLWjjg0F6DxuVcDwRpmQ8nRNeoUWQ=",
   "Source": "TheWaterProject",
   "BasePath": "_content/TheWaterProject",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
-    },
-    {
-      "Identity": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/favicon.ico",
-      "SourceId": "TheWaterProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/",
-      "BasePath": "_content/TheWaterProject",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
       "Identity": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/js/site.js",
@@ -1193,6 +1174,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/water_bottle.png",
+      "SourceId": "TheWaterProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/cristiancruz/RiderProjects/TheWaterProject/TheWaterProject/wwwroot/",
+      "BasePath": "_content/TheWaterProject",
+      "RelativePath": "water_bottle.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/water_bottle.png"
     }
   ]
 }
