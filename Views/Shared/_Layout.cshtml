@@ -15,18 +15,22 @@
         The Water Project 💧
     </span>
     <div class="row m-1 p-1">
-        <div id="" class="col-3">Add filter here🔨</div>
+        <div id="" class="col-3">
+            <vc:project-types/>
+        </div>
+        <div class="container col-9">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
+
 </div>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+
 
 <footer class="border-top footer text-muted">
     <div class="container">
-        &copy; 2024 - The Water Project - Cristian Cruz 💻 - <a asp-area="" asp-controller="Home">Privacy</a>
+        &copy; 2024 - The Water Project - Cristian Cruz 💻
     </div>
 </footer>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
