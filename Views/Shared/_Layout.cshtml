@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/TheWaterProject.styles.css" asp-append-version="true"/>
     <link rel="icon" href="water_bottle.png">
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css">
 </head>
 <body class="bg-dark">
 <div class="bg-dark text-white p-2">
-    <span class="navbar-brand m-lg-2">
-        The Water Project 💧
-    </span>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col navbar brand">The Water Project 💧</div>
+            <div class="col-6 navbar-text text-end">
+                <vc:cart-summary/>
+            </div>
+        </div>
+    </div>
     <div class="row m-1 p-1">
         <div id="" class="col-3">
             <vc:project-types/>

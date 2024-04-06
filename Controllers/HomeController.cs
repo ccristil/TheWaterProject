@@ -14,9 +14,9 @@ public class HomeController : Controller
         _repo = temp;
     }
 
-    public IActionResult Index(int pageNum, string? projectType)
+    public ViewResult Index(string? projectType, int pageNum = 1)
     {
-        int pageSize = 2;
+        int pageSize = 5;
 
         var blah = new ProjectsListViewModel
         {
